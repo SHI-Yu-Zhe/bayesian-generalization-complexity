@@ -58,7 +58,7 @@ Bayesian Generalization
 |  |  +-- n01440764
 |  |  +-- ...
 ```
-The `acre` dataset we used in our paper is adopted from the famous [CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/) and [ACRE](http://wellyzhang.github.io/project/acre.html#dataset) dataset. You can render the dataset with single object in one panel and without the blicket machine according to the [ACRE repo](https://github.com/WellyZhang/ACRE).
+The `acre` dataset we used in our paper is adopted from the famous [CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/) and [ACRE](http://wellyzhang.github.io/project/acre.html#dataset) dataset. You can render the dataset with single object in one panel and without the blicket machine according to the ACRE repo. You can also download this dataset from our google drive [here](https://drive.google.com/file/d/1eDHvCIkAAVkPHq9y1qCPEFXggGqq7C_C/view?usp=sharing).
 
 ## Training
 Using `classifier.py` to train the model:
@@ -75,11 +75,12 @@ python classifier.py
 ...
 # see more parameters in classifier.py
 ```
-You can either train from scratch or resume from a pretrained checkpoint. After training, save the model in the `checkpoint` folder as follows:
+You can either train from scratch or resume from a pre-trained checkpoint. After training, save the model in the `checkpoint` folder as follows:
 ```
 +-- ckpt
 |  +-- model_best_{arch}_{dataset}.pth.tar
 ```
+We also provide a version of pre-trained checkpoints on the datasets mentioned in the paper. You can download them from our google drive [here](https://drive.google.com/file/d/1eCuFqBYN8kuiAmoVtXWedXW0r0TdY55W/view?usp=sharing). However, we do suggest you train or finetune these models on your local dataset. As mentioned in the paper, the training samples of these models are limited to ensure the balance between different datasets.
 
 ## Hypothesis Space
 See `attribute_representativeness.py` for calculating and obtaining statistics about the attribute representativeness matrix.  
