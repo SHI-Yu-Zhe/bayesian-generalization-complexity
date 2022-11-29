@@ -120,7 +120,7 @@ python viz_k_cplx.py
 If you find this work is helpful, please cite us as
 
 ```
-@article{shi2022on,
+@article{shi2022complexity,
   title={On the Complexity of Bayesian Generalization},
   author={Shi, Yu-Zhe and Xu, Manjie and Hopcroft, John E. and He, Kun and Tenenbaum, Joshua B and Zhu, Song-Chun and Wu, Ying Nian and Han, Wenjuan and Zhu, Yixin},
   journal={arXiv preprint arXiv:2211.11033},
