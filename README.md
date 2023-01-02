@@ -28,7 +28,7 @@ This repo includes the code for the experiments.
 Run the following instruction in a conda environment to build the dependencies:
 
 ```
-conda install requirements.yaml
+conda install requirement.yaml
 ```
 
 ## Data
