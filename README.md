@@ -2,7 +2,7 @@
 
 Code Repository for our paper **On the Complexity of Bayesian Generalization (ICML'23)**.
 
-by [Yu-Zhe Shi](https://yuzheshi.github.io/)<sup> *</sup>, [Manjie Xu](https://mjtsu.github.io/)<sup> *</sup>, John E. Hopcroft, Kun He, Joshua B. Tenenbaum, Song-Chun Zhu, Ying Nian Wu, Wenjuan Han, [Yixin Zhu](https://yzhu.io/)
+by [Yu-Zhe Shi](https://yuzheshi.github.io/)<sup> &#9993; *</sup>, [Manjie Xu](https://mjtsu.github.io/)<sup> *</sup>, John E. Hopcroft, Kun He, Joshua B. Tenenbaum, Song-Chun Zhu, Ying Nian Wu, Wenjuan Han, [Yixin Zhu](https://yzhu.io/)<sup> &#9993;</sup>
 
 <p align="center">
     <a href='https://arxiv.org/pdf/2211.11033.pdf'>
