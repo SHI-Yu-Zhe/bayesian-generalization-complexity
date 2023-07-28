@@ -1,5 +1,6 @@
 # On the Complexity of Bayesian Generalization
-Code Repository for our paper **On the Complexity of Bayesian Generalization**.
+
+Code Repository for our paper **On the Complexity of Bayesian Generalization (ICML'23)**.
 
 by [Yu-Zhe Shi](https://yuzheshi.github.io/)<sup> *</sup>, [Manjie Xu](https://mjtsu.github.io/)<sup> *</sup>, John E. Hopcroft, Kun He, Joshua B. Tenenbaum, Song-Chun Zhu, Ying Nian Wu, Wenjuan Han, [Yixin Zhu](https://yzhu.io/)
 
@@ -120,11 +121,15 @@ python viz_k_cplx.py
 If you find this work is helpful, please cite us as
 
 ```
-@article{shi2022complexity,
-  title={On the Complexity of Bayesian Generalization},
-  author={Shi, Yu-Zhe and Xu, Manjie and Hopcroft, John E. and He, Kun and Tenenbaum, Joshua B and Zhu, Song-Chun and Wu, Ying Nian and Han, Wenjuan and Zhu, Yixin},
-  journal={arXiv preprint arXiv:2211.11033},
-  year={2022}
+@InProceedings{shi2023complexity,
+  title = {On the Complexity of {B}ayesian Generalization},
+  author = {Shi, Yu-Zhe and Xu, Manjie and Hopcroft, John E. and He, Kun and Tenenbaum, Joshua B. and Zhu, Song-Chun and Wu, Ying Nian and Han, Wenjuan and Zhu, Yixin},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  pages = {31389--31407},
+  year = {2023},
+  volume = {202},
+  series = {Proceedings of Machine Learning Research},
+  publisher =  {PMLR}
 }
 ```
 
