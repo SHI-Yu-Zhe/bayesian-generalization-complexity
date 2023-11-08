@@ -33,8 +33,7 @@ conda install requirement.yaml
 ```
 
 ## Data
-Six datasets with the supervision of concept labels are used: LEGO, 2D-Geometric, ACRE, AwA, Places, and ImageNet, ordered as the
-increment of concept-wise visual complexity. Download them and put them in the `data` folder as follows. You can refer to the `dataloader.py` to costumize your own dataset and dataloader.
+Six datasets with the supervision of concept labels are used: [LEGO](https://www.kaggle.com/datasets/joosthazelzet/lego-brick-images), 2D-Geometric, ACRE, AwA, Places, and ImageNet, ordered as the increment of concept-wise visual complexity. Download them and put them in the `data` folder as follows. You can refer to the `dataloader.py` to costumize your own dataset and dataloader.
 
 
 ```bash
